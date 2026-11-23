@@ -1,4 +1,6 @@
-# Omarchy Notification Center
+# fk-omarchy-notification-center-plugin
+
+> Forked from omacom/omarchy-notification-center-plugin (MIT). See `SIGMAOS_FORK.md`.
 
 An optional bar widget for reviewing notifications handled by Omarchy's
 built-in notification service.
