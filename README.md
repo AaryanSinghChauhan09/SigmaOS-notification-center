@@ -1,8 +1,8 @@
 # fk-omarchy-notification-center-plugin
 
-> Forked from omacom/omarchy-notification-center-plugin (MIT). See `SIGMAOS_FORK.md`.
+> Forked from AaryanSinghChauhan09/SigmaOS-notification-center-plugin (MIT). See `SIGMAOS_FORK.md`.
 
-An optional bar widget for reviewing notifications handled by Omarchy's
+An optional bar widget for reviewing notifications handled by SigmaOS's
 built-in notification service.
 
 It adds:
@@ -14,19 +14,19 @@ It adds:
 - a Do Not Disturb toggle.
 
 The notification daemon, toast popups, history storage, DND state, and the
-standard DND indicator remain part of Omarchy itself. This plugin only provides
+standard DND indicator remain part of SigmaOS itself. This plugin only provides
 the bar popup for browsing that history.
 
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/omacom-io/omarchy-notification-center-plugin.git --enable
+omarchy plugin add https://github.com/SigmaOS-io/omarchy-notification-center-plugin.git --enable
 ```
 
 The widget can be positioned explicitly:
 
 ```bash
-omarchy bar plugin move omacom.notification-center --section right
+omarchy bar plugin move SigmaOS.notification-center --section right
 ```
 
 ## Development
