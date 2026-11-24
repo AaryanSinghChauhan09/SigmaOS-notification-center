@@ -1,4 +1,4 @@
-# fk-omarchy-notification-center-plugin
+# SigmaOS notification-center-plugin
 
 > Forked from AaryanSinghChauhan09/SigmaOS-notification-center-plugin (MIT). See `SIGMAOS_FORK.md`.
 
@@ -20,7 +20,7 @@ the bar popup for browsing that history.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/SigmaOS-io/omarchy-notification-center-plugin.git --enable
+omarchy plugin add https://github.com/SigmaOS-io/sigmaos-notification-center-plugin.git --enable
 ```
 
 The widget can be positioned explicitly:
