@@ -20,13 +20,13 @@ the bar popup for browsing that history.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/SigmaOS-io/sigmaos-notification-center-plugin.git --enable
+sigmaos plugin add https://github.com/SigmaOS-io/sigmaos-notification-center-plugin.git --enable
 ```
 
 The widget can be positioned explicitly:
 
 ```bash
-omarchy bar plugin move SigmaOS.notification-center --section right
+sigmaos bar plugin move SigmaOS.notification-center --section right
 ```
 
 ## Development
@@ -34,14 +34,14 @@ omarchy bar plugin move SigmaOS.notification-center --section right
 Validate the manifest and entry point:
 
 ```bash
-omarchy plugin validate .
+sigmaos plugin validate .
 ```
 
 After changing plugin files:
 
 ```bash
-omarchy plugin rescan
-omarchy restart shell
+sigmaos plugin rescan
+sigmaos restart shell
 ```
 
 ## License
